@@ -1,6 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
-    color: rgb(15, 161, 105);
+    color: rgb(15, 115, 161);
     margin: 0%;
 }
 h1{
@@ -37,4 +37,30 @@ h1{
 .my-goal{
     background-image: url(images/bg-new3.jpg);
     background-repeat: no-repeat;
+}
+.experience-item{
+    width: 40%;
+    padding-left: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 5%;
+    box-shadow: 10px 20px 40px gray;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack-exp{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+}
+#web-dev-exp{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, rgb(0, 153, 255));
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }

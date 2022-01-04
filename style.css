@@ -1,6 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
-    color: snow;
+    color: rgb(5, 139, 126);
     margin: 0%;
 }
 h1{
@@ -11,6 +11,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
@@ -31,5 +32,10 @@ section{
 }
 .top-banner{
     background-image: url(images/bg-new.jpg);
+    background-repeat: no-repeat;   
+}
+.my-goal{
+    background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
+    background-position: right;
 }

@@ -1,6 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
-    color: snow;
+    color: rgb(15, 161, 105);
     margin: 0%;
 }
 h1{
@@ -9,7 +9,7 @@ h1{
 .orange-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 10px;
 }
